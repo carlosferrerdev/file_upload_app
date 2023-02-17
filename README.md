@@ -55,6 +55,5 @@ test:<br>
 </ol>
 <h2>Limitações</h2>
 <ul>
-  <li>A aplicação não oferece suporte para validação do formato do arquivo enviado.</li>
   <li>A aplicação não suporta a exclusão de arquivos enviados anteriormente.</li>
 </ul>

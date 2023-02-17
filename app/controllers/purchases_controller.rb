@@ -22,6 +22,7 @@ class PurchasesController < ApplicationController
     redirect_to purchase_path(id: 1) # Redireciona para a página que mostra o total de vendas
   end
 
+
   def show
     @total_gross_income = Purchase.sum("item_price * purchase_count")
   end
